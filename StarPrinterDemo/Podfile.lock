@@ -1,0 +1,21 @@
+PODS:
+  - StarIO (2.9.0)
+  - StarIO_Extension (1.16.0):
+    - StarIO
+
+DEPENDENCIES:
+  - StarIO (= 2.9.0)
+  - StarIO_Extension (= 1.16.0)
+
+SPEC REPOS:
+  trunk:
+    - StarIO
+    - StarIO_Extension
+
+SPEC CHECKSUMS:
+  StarIO: 4b0264b09847a8ab83d5154537e1cdb9635d1095
+  StarIO_Extension: 86b57f8990b0d7130eef41dd974c2f000f4b06af
+
+PODFILE CHECKSUM: 0375a3d8e7e7901d13f54974a75102f8eeb510e2
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		072904F29111861655A89D62 /* Pods_StarPrinterDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA1A30DFF3F0A5F20EAFE6A /* Pods_StarPrinterDemo.framework */; };
+		0FD7F0ED27ECA9D8005E4AD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD7F0EC27ECA9D8005E4AD9 /* AppDelegate.swift */; };
+		0FD7F0EF27ECA9D8005E4AD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD7F0EE27ECA9D8005E4AD9 /* SceneDelegate.swift */; };
+		0FD7F0F127ECA9D8005E4AD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD7F0F027ECA9D8005E4AD9 /* ViewController.swift */; };
+		0FD7F0F427ECA9D8005E4AD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FD7F0F227ECA9D8005E4AD9 /* Main.storyboard */; };
+		0FD7F0F627ECA9D9005E4AD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FD7F0F527ECA9D9005E4AD9 /* Assets.xcassets */; };
+		0FD7F0F927ECA9D9005E4AD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FD7F0F727ECA9D9005E4AD9 /* LaunchScreen.storyboard */; };
+		0FD7F10A27ECADDE005E4AD9 /* SelectStarPrinterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD7F10927ECADDE005E4AD9 /* SelectStarPrinterViewController.swift */; };
+		0FD7F10B27ECAECE005E4AD9 /* Communication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD7F10427ECAB9F005E4AD9 /* Communication.swift */; };
+		0FD7F10C27ECAECE005E4AD9 /* StarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD7F10527ECAB9F005E4AD9 /* StarController.swift */; };
+		0FD7F10D27ECAECE005E4AD9 /* StarController+PromiseKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD7F10327ECAB9F005E4AD9 /* StarController+PromiseKit.swift */; };
+		0FD7F10E27ECAECE005E4AD9 /* CommunicationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD7F10127ECAB9F005E4AD9 /* CommunicationResult.swift */; };
+		0FD7F10F27ECAECE005E4AD9 /* ModelCapability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD7F10227ECAB9F005E4AD9 /* ModelCapability.swift */; };
+		0FD7F11027ECAED3005E4AD9 /* SettingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD7F10727ECAB9F005E4AD9 /* SettingManager.swift */; };
+		0FD7F11127ECAED3005E4AD9 /* SMDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD7F10827ECAB9F005E4AD9 /* SMDefine.swift */; };
+		0FD7F11427ECAFD2005E4AD9 /* PromiseKit in Frameworks */ = {isa = PBXBuildFile; productRef = 0FD7F11327ECAFD2005E4AD9 /* PromiseKit */; };
+		0FD7F11627ECB05A005E4AD9 /* TwoLabelsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD7F11527ECB05A005E4AD9 /* TwoLabelsTableViewCell.swift */; };
+		0FD7F11927ECB1A6005E4AD9 /* SMCloudServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD7F11827ECB163005E4AD9 /* SMCloudServices.framework */; };
+		0FD7F11B27ECB227005E4AD9 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD7F11A27ECB227005E4AD9 /* Errors.swift */; };
+		0FD7F11D27ECB270005E4AD9 /* UserPrefs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD7F11C27ECB270005E4AD9 /* UserPrefs.swift */; };
+		0FD7F12227ECB3D9005E4AD9 /* MBProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = 0FD7F12127ECB3D9005E4AD9 /* MBProgressHUD */; };
+		0FD7F12527ECB6CE005E4AD9 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FD7F12427ECB6CE005E4AD9 /* NetworkExtension.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FD7F0E927ECA9D8005E4AD9 /* StarPrinterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarPrinterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FD7F0EC27ECA9D8005E4AD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0FD7F0EE27ECA9D8005E4AD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0FD7F0F027ECA9D8005E4AD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0FD7F0F327ECA9D8005E4AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0FD7F0F527ECA9D9005E4AD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0FD7F0F827ECA9D9005E4AD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0FD7F0FA27ECA9D9005E4AD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FD7F10127ECAB9F005E4AD9 /* CommunicationResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationResult.swift; sourceTree = "<group>"; };
+		0FD7F10227ECAB9F005E4AD9 /* ModelCapability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCapability.swift; sourceTree = "<group>"; };
+		0FD7F10327ECAB9F005E4AD9 /* StarController+PromiseKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StarController+PromiseKit.swift"; sourceTree = "<group>"; };
+		0FD7F10427ECAB9F005E4AD9 /* Communication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Communication.swift; sourceTree = "<group>"; };
+		0FD7F10527ECAB9F005E4AD9 /* StarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarController.swift; sourceTree = "<group>"; };
+		0FD7F10727ECAB9F005E4AD9 /* SettingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingManager.swift; sourceTree = "<group>"; };
+		0FD7F10827ECAB9F005E4AD9 /* SMDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMDefine.swift; sourceTree = "<group>"; };
+		0FD7F10927ECADDE005E4AD9 /* SelectStarPrinterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectStarPrinterViewController.swift; sourceTree = "<group>"; };
+		0FD7F11527ECB05A005E4AD9 /* TwoLabelsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoLabelsTableViewCell.swift; sourceTree = "<group>"; };
+		0FD7F11727ECB0FE005E4AD9 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		0FD7F11827ECB163005E4AD9 /* SMCloudServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMCloudServices.framework; sourceTree = "<group>"; };
+		0FD7F11A27ECB227005E4AD9 /* Errors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		0FD7F11C27ECB270005E4AD9 /* UserPrefs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPrefs.swift; sourceTree = "<group>"; };
+		0FD7F12327ECB6CE005E4AD9 /* StarPrinterDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StarPrinterDemo.entitlements; sourceTree = "<group>"; };
+		0FD7F12427ECB6CE005E4AD9 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		32C0FBD687DE440F9F853679 /* Pods-StarPrinterDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarPrinterDemo.debug.xcconfig"; path = "Target Support Files/Pods-StarPrinterDemo/Pods-StarPrinterDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		620586C0A3ACEF43AF1C2114 /* Pods-StarPrinterDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StarPrinterDemo.release.xcconfig"; path = "Target Support Files/Pods-StarPrinterDemo/Pods-StarPrinterDemo.release.xcconfig"; sourceTree = "<group>"; };
+		6DA1A30DFF3F0A5F20EAFE6A /* Pods_StarPrinterDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StarPrinterDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FD7F0E627ECA9D8005E4AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072904F29111861655A89D62 /* Pods_StarPrinterDemo.framework in Frameworks */,
+				0FD7F11927ECB1A6005E4AD9 /* SMCloudServices.framework in Frameworks */,
+				0FD7F12227ECB3D9005E4AD9 /* MBProgressHUD in Frameworks */,
+				0FD7F12527ECB6CE005E4AD9 /* NetworkExtension.framework in Frameworks */,
+				0FD7F11427ECAFD2005E4AD9 /* PromiseKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FD7F0E027ECA9D8005E4AD9 = {
+			isa = PBXGroup;
+			children = (
+				0FD7F0EB27ECA9D8005E4AD9 /* StarPrinterDemo */,
+				0FD7F0EA27ECA9D8005E4AD9 /* Products */,
+				832CC9916E71184615BC4BB9 /* Pods */,
+				BD6064046CED6FC5A54DE363 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0FD7F0EA27ECA9D8005E4AD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0FD7F0E927ECA9D8005E4AD9 /* StarPrinterDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0FD7F0EB27ECA9D8005E4AD9 /* StarPrinterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0FD7F12327ECB6CE005E4AD9 /* StarPrinterDemo.entitlements */,
+				0FD7F0EC27ECA9D8005E4AD9 /* AppDelegate.swift */,
+				0FD7F0EE27ECA9D8005E4AD9 /* SceneDelegate.swift */,
+				0FD7F11A27ECB227005E4AD9 /* Errors.swift */,
+				0FD7F11C27ECB270005E4AD9 /* UserPrefs.swift */,
+				0FD7F10027ECAB9F005E4AD9 /* StarPrinting */,
+				0FD7F0F027ECA9D8005E4AD9 /* ViewController.swift */,
+				0FD7F10927ECADDE005E4AD9 /* SelectStarPrinterViewController.swift */,
+				0FD7F11527ECB05A005E4AD9 /* TwoLabelsTableViewCell.swift */,
+				0FD7F0F227ECA9D8005E4AD9 /* Main.storyboard */,
+				0FD7F0F527ECA9D9005E4AD9 /* Assets.xcassets */,
+				0FD7F0F727ECA9D9005E4AD9 /* LaunchScreen.storyboard */,
+				0FD7F0FA27ECA9D9005E4AD9 /* Info.plist */,
+				0FD7F11727ECB0FE005E4AD9 /* Bridging-Header.h */,
+				0FD7F11827ECB163005E4AD9 /* SMCloudServices.framework */,
+			);
+			path = StarPrinterDemo;
+			sourceTree = "<group>";
+		};
+		0FD7F10027ECAB9F005E4AD9 /* StarPrinting */ = {
+			isa = PBXGroup;
+			children = (
+				0FD7F10127ECAB9F005E4AD9 /* CommunicationResult.swift */,
+				0FD7F10227ECAB9F005E4AD9 /* ModelCapability.swift */,
+				0FD7F10327ECAB9F005E4AD9 /* StarController+PromiseKit.swift */,
+				0FD7F10427ECAB9F005E4AD9 /* Communication.swift */,
+				0FD7F10527ECAB9F005E4AD9 /* StarController.swift */,
+				0FD7F10627ECAB9F005E4AD9 /* Helper Classes */,
+			);
+			path = StarPrinting;
+			sourceTree = "<group>";
+		};
+		0FD7F10627ECAB9F005E4AD9 /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0FD7F10727ECAB9F005E4AD9 /* SettingManager.swift */,
+				0FD7F10827ECAB9F005E4AD9 /* SMDefine.swift */,
+			);
+			path = "Helper Classes";
+			sourceTree = "<group>";
+		};
+		832CC9916E71184615BC4BB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				32C0FBD687DE440F9F853679 /* Pods-StarPrinterDemo.debug.xcconfig */,
+				620586C0A3ACEF43AF1C2114 /* Pods-StarPrinterDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BD6064046CED6FC5A54DE363 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FD7F12427ECB6CE005E4AD9 /* NetworkExtension.framework */,
+				6DA1A30DFF3F0A5F20EAFE6A /* Pods_StarPrinterDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0FD7F0E827ECA9D8005E4AD9 /* StarPrinterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0FD7F0FD27ECA9D9005E4AD9 /* Build configuration list for PBXNativeTarget "StarPrinterDemo" */;
+			buildPhases = (
+				2FCB7FD4F08214C7754547C5 /* [CP] Check Pods Manifest.lock */,
+				0FD7F0E527ECA9D8005E4AD9 /* Sources */,
+				0FD7F0E627ECA9D8005E4AD9 /* Frameworks */,
+				0FD7F0E727ECA9D8005E4AD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StarPrinterDemo;
+			packageProductDependencies = (
+				0FD7F11327ECAFD2005E4AD9 /* PromiseKit */,
+				0FD7F12127ECB3D9005E4AD9 /* MBProgressHUD */,
+			);
+			productName = StarPrinterDemo;
+			productReference = 0FD7F0E927ECA9D8005E4AD9 /* StarPrinterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0FD7F0E127ECA9D8005E4AD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					0FD7F0E827ECA9D8005E4AD9 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 0FD7F0E427ECA9D8005E4AD9 /* Build configuration list for PBXProject "StarPrinterDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0FD7F0E027ECA9D8005E4AD9;
+			packageReferences = (
+				0FD7F11227ECAFD2005E4AD9 /* XCRemoteSwiftPackageReference "PromiseKit" */,
+				0FD7F12027ECB3D9005E4AD9 /* XCRemoteSwiftPackageReference "MBProgressHUD" */,
+			);
+			productRefGroup = 0FD7F0EA27ECA9D8005E4AD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FD7F0E827ECA9D8005E4AD9 /* StarPrinterDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0FD7F0E727ECA9D8005E4AD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FD7F0F927ECA9D9005E4AD9 /* LaunchScreen.storyboard in Resources */,
+				0FD7F0F627ECA9D9005E4AD9 /* Assets.xcassets in Resources */,
+				0FD7F0F427ECA9D8005E4AD9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2FCB7FD4F08214C7754547C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StarPrinterDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0FD7F0E527ECA9D8005E4AD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FD7F11027ECAED3005E4AD9 /* SettingManager.swift in Sources */,
+				0FD7F0F127ECA9D8005E4AD9 /* ViewController.swift in Sources */,
+				0FD7F10E27ECAECE005E4AD9 /* CommunicationResult.swift in Sources */,
+				0FD7F10B27ECAECE005E4AD9 /* Communication.swift in Sources */,
+				0FD7F10A27ECADDE005E4AD9 /* SelectStarPrinterViewController.swift in Sources */,
+				0FD7F0ED27ECA9D8005E4AD9 /* AppDelegate.swift in Sources */,
+				0FD7F10F27ECAECE005E4AD9 /* ModelCapability.swift in Sources */,
+				0FD7F11B27ECB227005E4AD9 /* Errors.swift in Sources */,
+				0FD7F0EF27ECA9D8005E4AD9 /* SceneDelegate.swift in Sources */,
+				0FD7F11127ECAED3005E4AD9 /* SMDefine.swift in Sources */,
+				0FD7F10C27ECAECE005E4AD9 /* StarController.swift in Sources */,
+				0FD7F11D27ECB270005E4AD9 /* UserPrefs.swift in Sources */,
+				0FD7F10D27ECAECE005E4AD9 /* StarController+PromiseKit.swift in Sources */,
+				0FD7F11627ECB05A005E4AD9 /* TwoLabelsTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0FD7F0F227ECA9D8005E4AD9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FD7F0F327ECA9D8005E4AD9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0FD7F0F727ECA9D9005E4AD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0FD7F0F827ECA9D9005E4AD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0FD7F0FB27ECA9D9005E4AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0FD7F0FC27ECA9D9005E4AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0FD7F0FE27ECA9D9005E4AD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32C0FBD687DE440F9F853679 /* Pods-StarPrinterDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StarPrinterDemo/StarPrinterDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/StarPrinterDemo",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StarPrinterDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.StarPrinterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "StarPrinterDemo/Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		0FD7F0FF27ECA9D9005E4AD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 620586C0A3ACEF43AF1C2114 /* Pods-StarPrinterDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StarPrinterDemo/StarPrinterDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/StarPrinterDemo",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StarPrinterDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.StarPrinterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "StarPrinterDemo/Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0FD7F0E427ECA9D8005E4AD9 /* Build configuration list for PBXProject "StarPrinterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FD7F0FB27ECA9D9005E4AD9 /* Debug */,
+				0FD7F0FC27ECA9D9005E4AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0FD7F0FD27ECA9D9005E4AD9 /* Build configuration list for PBXNativeTarget "StarPrinterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FD7F0FE27ECA9D9005E4AD9 /* Debug */,
+				0FD7F0FF27ECA9D9005E4AD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0FD7F11227ECAFD2005E4AD9 /* XCRemoteSwiftPackageReference "PromiseKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mxcl/PromiseKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		0FD7F12027ECB3D9005E4AD9 /* XCRemoteSwiftPackageReference "MBProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jdg/MBProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		0FD7F11327ECAFD2005E4AD9 /* PromiseKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0FD7F11227ECAFD2005E4AD9 /* XCRemoteSwiftPackageReference "PromiseKit" */;
+			productName = PromiseKit;
+		};
+		0FD7F12127ECB3D9005E4AD9 /* MBProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0FD7F12027ECB3D9005E4AD9 /* XCRemoteSwiftPackageReference "MBProgressHUD" */;
+			productName = MBProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 0FD7F0E127ECA9D8005E4AD9 /* Project object */;
+}
